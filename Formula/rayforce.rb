@@ -1,6 +1,6 @@
 # Homebrew formula TEMPLATE for the rayforcedb/tap tap.
 #
-# release.yml substitutes https://github.com/RayforceDB/rayforce/archive/refs/tags/v2.5.7.tar.gz and 32075eda591e5ffe6a638560f0743bbe48afbd16818ea61e847d2b36eb7e5806 (the GitHub source tarball for
+# release.yml substitutes https://github.com/RayforceDB/rayforce/archive/refs/tags/v2.5.8.tar.gz and fed28f064609d1de605f06760a2501bb9519110ddccf0b7faae696e239ca5993 (the GitHub source tarball for
 # the tag and its sha256) and pushes the result to RayforceDB/homebrew-tap as
 # Formula/rayforce.rb on every release.
 #
@@ -10,8 +10,8 @@
 class Rayforce < Formula
   desc "Embeddable columnar analytics and graph traversal engine in pure C"
   homepage "https://rayforcedb.com/"
-  url "https://github.com/RayforceDB/rayforce/archive/refs/tags/v2.5.7.tar.gz"
-  sha256 "32075eda591e5ffe6a638560f0743bbe48afbd16818ea61e847d2b36eb7e5806"
+  url "https://github.com/RayforceDB/rayforce/archive/refs/tags/v2.5.8.tar.gz"
+  sha256 "fed28f064609d1de605f06760a2501bb9519110ddccf0b7faae696e239ca5993"
   license "MIT"
   head "https://github.com/RayforceDB/rayforce.git", branch: "master"
 
